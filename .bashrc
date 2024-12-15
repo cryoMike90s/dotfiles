@@ -1,3 +1,5 @@
-### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
-export PATH="/Users/cryoMike90s/.rd/bin:$PATH"
-### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
+export XDG_CONFIG_HOME="$HOME"/.config
+
+if [ -f $HOME/.bash_aliases ]; then
+  . $HOME/.bash_aliases
+fi
