@@ -1,12 +1,21 @@
-[window]
-option_as_alt = "None"
-
-[terminal]
-shell = { program = "/usr/local/bin/bash",  args = ["--login",] } 
-
 
 [font]
 size = 15
 
 [font.normal]
 family = "UbuntuMono Nerd Font"
+
+[terminal]
+shell = { program = "/usr/local/bin/bash",  args = ["--login",] } 
+
+[window]
+decorations = "none"
+option_as_alt = "None"
+startup_mode = "Maximized"
+
+[window.padding]
+x = 7
+y = 0
+
+[general]
+import = ["~/.config/alacritty/themes/gruvbox_dark.toml"]
