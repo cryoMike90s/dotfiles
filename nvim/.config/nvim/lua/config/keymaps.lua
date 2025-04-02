@@ -13,3 +13,12 @@ vim.keymap.set("n", "<C-u>", "<C-u>zz")
 -- these are for searching
 vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
+
+vim.keymap.set("n", "<leader>p", '<cmd>lua require("cmp").setup { enabled = true }<cr>', { desc = "Enable completion" })
+
+vim.keymap.set(
+  "n",
+  "<leader>P",
+  '<cmd>lua require("cmp").setup { enabled = false }<cr>',
+  { desc = "Disable completion" }
+)
