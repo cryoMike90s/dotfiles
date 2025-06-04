@@ -2,7 +2,7 @@
 
 set -eu -o pipefail # fail on error and report it, debug all lines
 
-export INITIAL_PACKAGES="stow ninja-build gettext cmake curl build-essential"
+export INITIAL_PACKAGES="stow ninja-build gettext cmake curl build-essential fzf"
 
 echo $INITIAL_PACKAGES
 
@@ -18,3 +18,5 @@ export LAZYGIT_VERSION=$(curl -s "https://api.github.com/repos/jesseduffield/laz
 curl -Lo lazygit.tar.gz "https://github.com/jesseduffield/lazygit/releases/download/v${LAZYGIT_VERSION}/lazygit_${LAZYGIT_VERSION}_Linux_x86_64.tar.gz"
 tar xf lazygit.tar.gz lazygit
 sudo install lazygit -D -t /usr/local/bin/
+
+rm -rf lazygit lazygit.tar.gz nvim-linux-x86_64.tar.gz
