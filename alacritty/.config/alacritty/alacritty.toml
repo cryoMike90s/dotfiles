@@ -9,7 +9,7 @@ family = "UbuntuMono Nerd Font"
 shell = { program = "/usr/local/bin/bash",  args = ["--login",] } 
 
 [window]
-decorations = "none"
+#decorations = "none"
 option_as_alt = "None"
 startup_mode = "Maximized"
 
