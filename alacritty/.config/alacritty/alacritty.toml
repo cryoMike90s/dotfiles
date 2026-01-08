@@ -19,3 +19,9 @@ y = 0
 
 [general]
 import = ["~/.config/alacritty/themes/gruvbox_dark.toml"]
+
+[keyboard]
+bindings = [
+  { key = "Right", mods = "Alt", chars = "\u001BF" },
+  { key = "Left",  mods = "Alt", chars = "\u001BB" },
+]
