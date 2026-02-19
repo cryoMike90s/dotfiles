@@ -4,6 +4,7 @@
 --
 --
 vim.opt.shell = "/usr/local/bin/bash --login"
+vim.g.lazyvim_picker = "fzf"
 
 vim.opt.ignorecase = true
 vim.opt.scrolloff = 10
