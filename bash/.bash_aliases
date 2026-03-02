@@ -17,8 +17,12 @@ alias gdp-dev='export AWS_PROFILE=sgp-aws-gdp-core-dev; okta-aws-cli --profile=s
 alias gdp-preprod='export AWS_PROFILE=sgp-aws-gdp-core-preprod; okta-aws-cli --profile=sgp-aws-gdp-core-preprod -e'
 alias gdp-prod='export AWS_PROFILE=sgp-aws-gdp-core-prod; okta-aws-cli --profile=sgp-aws-gdp-core-prod -e'
 
+alias uda-dev='export AWS_PROFILE=sgp-aws-unified-data-access-dev; okta-aws-cli --profile=sgp-aws-unified-data-access-dev  -e'
+
 alias tfc='rm -rf .terraform; rm -f .terraform.lock.hcl'
 alias ti='terraform init'
 alias tp='terraform plan'
 alias ta='terraform apply'
 alias tv='terraform validate'
+
+alias k='kubectl'
