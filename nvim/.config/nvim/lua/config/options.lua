@@ -10,3 +10,6 @@ vim.opt.ignorecase = true
 vim.opt.scrolloff = 10
 vim.opt.swapfile = false
 vim.opt.directory = ""
+
+-- Disable LSP logging — the log grows to 40+ MB and adds startup overhead
+vim.lsp.set_log_level("off")
