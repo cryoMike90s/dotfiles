@@ -8,3 +8,5 @@ vim.g.lazyvim_picker = "fzf"
 
 vim.opt.ignorecase = true
 vim.opt.scrolloff = 10
+vim.opt.swapfile = false
+vim.opt.directory = ""
